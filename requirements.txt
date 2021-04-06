@@ -1,0 +1,5 @@
+click~=7.1.2
+pydevd-pycharm~=203.7717.81
+pydriller~=1.15.5
+terminaltables~=3.1.0
+pandas~=1.2.3
