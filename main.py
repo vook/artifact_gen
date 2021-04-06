@@ -7,12 +7,10 @@ from datetime import datetime
 
 import click
 import git
-import pydevd_pycharm
 import questionary
 from pydriller import RepositoryMining
 from terminaltables import AsciiTable
 
-pydevd_pycharm.settrace('localhost', port=9001, suspend=False)
 home = os.path.expanduser("~")
 
 @click.command()
